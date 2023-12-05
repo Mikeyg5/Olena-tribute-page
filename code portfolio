@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet"
+   href="PortfolioC.css">
+  <title>Michael's Portfolio</title>
+  <meta name="viewport"
+   content="width=device-width, initial-scale=1.0" />
+ </head>
+ <body>
+  <nav id="navbar">
+   <a class="navlink white-text"
+    href="#projects">Projects</a>
+   <a class="navlink white-text"
+    href="#skills">Skills</a>
+   <a class="navlink white-text"
+    href="#contact">Contact</a>
+   <a class="navlink white-text"
+    href="#credentials">Credentials</a>
+  </nav><br><br>
+  <div id="welcome-section">
+   <br><br><br>
+   <h1 class="centered">Hello
+    I'm Michael 👋
+   </h1><br><br>
+   <p>-My goal is become a Full-Stack
+    Developer and to demonstrate that I have
+    the skills required to do so with my
+    qualifications below-</p><br>
+   <p>-Use the toolbar to quickly navagate or
+    just
+    scroll through the different sections-
+   </p>
+  </div>
+  <div id="projects" class="white-text"><br>
+   <h2 class="centered">These are
+    a few of my
+    best projects
+   </h2>
+   <a class="project-tile">Project 1</a>
+  </div>
+  <div id="skills"><br>
+   <h2 class="centered">Skills</h2>
+   <p style="text-indent: 25px">
+    HTML/CSS-(Condense)I have a strong
+    proficiency in HTML and CSS, which I have
+    developed through extensive practice and
+    hands-on experience. I am well-versed in
+    writing clean and semantic code, creating
+    responsive layouts, and implementing
+    modern design trends. I have successfully
+    built several websites and web
+    applications, demonstrating my ability to
+    effectively utilize HTML and CSS to bring
+    designs to life. Additionally, I stay
+    updated with the latest developments in
+    the field, allowing me to deliver
+    high-quality and visually appealing web
+    solutions."</p>
+   <p>JavaScript-</p>
+   <p>Various Frameworks</p>
+  </div>
+  <div id="contact"
+   class="white-text centered"><br>
+   <a target="_blank" id="profile-link">
+    <h2>Contact Information</h2>
+   </a>
+   <p class="white-text">Email -
+    Michaelgordon6265@gmail.com</p>
+   <p class="white-text">Mobile -
+    (862)-384-1066
+   </p>
+   <p>Feel free to contact
+    me with any
+    questions!</p><br>
+   <p>Or if you prefer you can leave your
+    contact information for me to get back to
+    you </p>
+   <form>
+    <fieldset>
+     <legend>Client Information</legend>
+     <label for="name">Name: </label>
+     <input id="name" type="text"
+      placeholder="Enter Name"><br>
+     <label for="email">Email: </label>
+     <input id="email" type="email"
+      placeholder="Enter Email"><br>
+     <button>Submit</button>
+    </fieldset>
+   </form>
+  </div>
+  <div id="credentials"><br>
+   <h2 class="centered">Certificates</h2>
+   <img
+    src="https://www.blogger.com/blog/post/edit/8416732044906501359/1676249485463343034">
+  </div>
+  <script src="PortfolioJ.js"></script>
+ </body>
+</html>
